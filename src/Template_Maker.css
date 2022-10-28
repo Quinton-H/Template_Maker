@@ -195,6 +195,55 @@ li a {
 /* Seventh section css */
 
 .seventh-section {
+    background-image: url(alex-duffy-_RdlZrVKeWQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     text-align: center;
     width: 500px;
+}
+
+.seventh-section-container {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    display: block;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    display: block;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+/* Eigth section css */
+
+.eigth-section {
+    text-align: center;
+    min-width: 500px;
+}
+
+.eigth-section-container {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    min-width: 500px;
+}
+
+footer p {
+    width: 390px;
+    margin-right: auto;
+    margin-left: auto;
 }
