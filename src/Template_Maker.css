@@ -74,7 +74,7 @@ li a {
 }
 
 .second-section-containers {
-    width: 365px;
+    width: 305px;
     text-align: center;
     margin-bottom: 30px;
     background-color: #F2F2F2;
@@ -83,11 +83,11 @@ li a {
 }
 
 .section-description {
-    width: 365px;
+    width: 335px;
 }
 
 .second-img-section {
-    width: 365px;
+    width: 305px;
     height: 180px;
 }
 
@@ -155,14 +155,14 @@ li a {
 }
 
 .fifth-section-containers {
-    width: 305px;
+    width: 250px;
     height: 500px;
     background-color: #F2F2F2;
     margin-bottom: 35px;
 }
 
 .fifth-img-section {
-    width: 305px;
+    width: 250px;
     height: 305px;
 }
 
@@ -201,7 +201,7 @@ li a {
     background-size: cover;
     width: 100%;
     text-align: center;
-    width: 500px;
+    min-width: 500px;
 }
 
 .seventh-section-container {
