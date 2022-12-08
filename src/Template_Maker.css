@@ -292,3 +292,14 @@ footer p {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+
+/* Media Query 522px */
+@media screen and (min-width: 522px) {
+    .fifth-section-containers {
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 200px 200px;
+    }
+}
