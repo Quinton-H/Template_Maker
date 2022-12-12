@@ -297,9 +297,17 @@ footer p {
 
 /* Media Query 522px */
 @media screen and (min-width: 522px) {
-    .fifth-section-containers {
+    .fifth-section {
         display: grid;
-        grid-template-rows: 200px 200px;
-        grid-template-columns: 200px 200px;
+        place-items: center;
+        grid-template-rows: 550px 550px;
+        grid-template-columns: 300px 300px;
+        grid-template-areas: 
+        'grid1 grid2'
+        'grid3 grid4';
+    }
+
+    .fifth-section-containers {
+        min-width: 150px;
     }
 }
